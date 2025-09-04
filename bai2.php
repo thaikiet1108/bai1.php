@@ -25,7 +25,12 @@
 
     echo "<hr>";
     array_push($arr,"Los Angeles", "Calcutta", "Osaka", "Beijing");
-
+    sort($arr);
+    echo "<ul>";
+    foreach ($arr as $y) {
+        echo "<li>$y</li>";
+    }
+    echo"</ul>";
     ?>
 </body>
 </html>
